@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    height:100%;
+    width:100%;
+    font-family: "Jost", sans-serif;
+}
+#main{
+    height: 100%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:50px;
+    background-color: rgb(127, 224, 127);
+    color:white;
+}
+#left{
+    height: 844px;
+    width:390px;
+    background:linear-gradient(to top,rgba(39, 49, 39, 0.815) ,rgba(92, 253, 100, 0.37)), url(https://i.pinimg.com/736x/26/28/ee/2628ee8d8811fc3e88e4ad42e12f1b48.jpg);
+    background-size: cover;
+    background-position: top;
+    border-radius:34px;
+    box-shadow: 10px 10px 10px rgba(40, 82, 40, 0.644);
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding: 0px 0px 100px 0px;
+    text-align: center;
+    
+}
+#fb-login{
+    height:25%;
+    width:100%;
+    font-size:13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: space-between; */
+    gap:15px;
+    margin:10px 0px 10px 0px;
+    padding:10px 10px 10px 10px;
+    /* background-color: azure; */
+    background:linear-gradient(to right,rgba(109, 248, 109, 0.993),rgb(16, 156, 86));
+    border-radius:45px;
+    color:rgb(226, 235, 226);
+}
+#fb-login i{
+    font-size: 20px;
+    gap:10px;
+    font-weight: 800;
+    padding:10px 10px 10px 10px;
+    border-radius:113px;
+    color:rgb(67, 243, 52);
+    background-color: white;
+    box-shadow:1px 1px 6px black; 
+}
+#email-login{
+    font-size: 12px;
+    font-weight: 500;
+    background-color: white;
+    color:green;
+    padding:15px 10px 15px 10px;
+    /* border:solid 4px rgb(22, 138, 27); */
+    border-radius:45px;
+}
+#third-party{
+    margin:20px 0px 20px 0px;
+}
+#third-party i{
+    font-size: 30px;
+    gap:10px;
+    padding:10px 10px 10px 10px;
+    border-radius:113px;
+    background-color: white;
+    color:green;
+    
+}
+#left a{
+    /* text-decoration: none; */
+    color:rgb(76, 0, 253);
+}
+#right{
+    height: 844px;
+    width:390px;
+    /* background-color: aquamarine; */
+    background-image: url(https://i.pinimg.com/736x/70/2d/49/702d4987b049b21ee6d01fa0077942c0.jpg);
+    background-size: cover;
+    /* background-position: botom; */
+    border-radius: 34px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 10px 10px 10px rgba(40, 82, 40, 0.644);
+
+}
+#right-up{
+    height: 40%;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 5px 5px 4px black;
+    color:rgb(255, 255, 255);
+    font-size:20px;
+
+}
+#right-bottom{
+    height: 60%;
+    width:100%;
+    background-color: rgba(66, 148, 137, 0.733);
+    /* background: linear-gradient(to top,rgb(238, 104, 204),rgb(167, 230, 167)); */
+    /* opacity: 100%; */
+    /* border-rdius: 34px; */
+    border-top-left-radius: 55px;
+    border-bottom-left-radius: 35px;
+    border-top-right-radius: 55px;
+    border-bottom-right-radius: 35px;
+    backdrop-filter: blur(6px) saturate(126%);
+    -webkit-backdrop-filter: blur(12px) saturate(126%);
+    
+
+}
+#r-b-up{
+    height: 10%;
+    width:100%;
+    color:rgb(6, 75, 6);
+    text-align: center;
+    padding:40px 0px 0px 0px;
+}
+
+
+#signup-form{
+    height: 70%;
+    width:100%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+#signup-form label{
+    width:70%;
+    font-size: 20px;
+    color:rgb(0, 0, 0);
+    text-align: left;
+    margin:3px 0px 3px 4px;
+    font-weight: 400;
+}
+#signup-form input{
+    height: 10%;
+    width:80%;
+    padding:0px 0px 0px 10px;
+    font-size: 23px;
+    background-color:rgba(183, 252, 192, 0.644);
+    border:none;
+    border-radius: 20px;
+}
+#signup-form button{
+    /* height: 10px; */
+    width:40%;
+    padding:10px 25px 10px 25px;
+    margin:20px 0px 0px 0px; 
+    border-radius: 113px;
+    border:none;
+    color:white;
+    font-size: 20px;
+    font-weight: 560;
+    background:linear-gradient(to right,rgba(109, 248, 109, 0.993),rgb(16, 156, 86));
+
+}
+
+#signup-bottom{
+    height: 10%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    
+    color:black;
+}
+#signup-bottom i{
+    font-size:29px;
+    padding:9px 9px 9px 9px;
+    color:white;
+    background-color:rgb(61, 133, 61) ;
+    border-radius:112px;
+    box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.397);
+}
